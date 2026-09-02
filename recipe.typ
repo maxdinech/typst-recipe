@@ -129,7 +129,7 @@
   steps: [],
   remarks: [],
   pairings: [],
-) = {
+) = context {
   show heading.where(
     level: 2
   ): it => text(
